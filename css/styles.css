@@ -1,0 +1,170 @@
+a {
+    color: red;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #EAF6F6;
+}
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+h1 {
+    font-size: 5.625rem;
+    margin-top: 50px;
+    /* margin: 0 auto 0 auto; */
+    font-family: 'Sacramento', cursive;
+}
+
+h2 {
+    font-size: 2.5rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+}
+
+h3 {
+    color: #db2d43;
+}
+
+hr {
+    border-style: dotted none none none;
+    border-color: #db2d43;
+    height: 0px;
+    border-width: 5px;
+    width: 5%;
+}
+/* class selectors */
+
+.bottom-cloud {
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+
+.heading {
+    background-color: #c7f2e3;
+    color: #db2d43;
+    position: relative;
+    padding-top: 100px;
+}
+
+.middle-container {
+    padding-bottom: 40px;
+}
+
+.bottom-container {
+    text-align: center;
+    background-color: #c7f2e3;
+    padding: 50px 0 20px; 
+    height: 150px;
+}
+
+.butn {
+    -webkit-border-radius: 16;
+    -moz-border-radius: 16;
+    border-radius: 16px;
+    font-family: 'Montserrat', sans-serif;
+    color: #db2d43;
+    font-size: 20px;
+    background: #c7f2e3;
+    padding: 10px 20px 10px 20px;
+    border: solid #db2d43 1px;
+    text-decoration: none;
+}
+  
+.butn:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+}
+
+.contact-button {
+    /* padding-top: 21px; */
+    margin-top: 21px;
+}
+
+.java-img {
+    height: 250px;
+    width: 200px;
+}
+
+.js-img {
+    width: 200px;
+    height: 200px;
+}
+
+.links {
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.mobile-img {
+    /* width: 300px; */
+    height: 25%;
+    width: 25%;
+    border-radius: 100%;
+    float: left;
+    margin-right: 30px;
+}
+
+.oop-img {
+    /* width: 300px; */
+    width: 25%;
+    height: 25%;
+    border-radius: 100%;
+    float: right;
+    
+}
+
+.picture {
+    border-radius: 100%;
+    height: 17%;
+    width: 17%;
+}
+
+.profile {
+    padding-bottom: 40px;
+    padding-top: 30px;
+}
+
+.self-desc {
+    color: #40514E;
+    width: 50%;
+    margin: auto 25%;
+}
+.skill-desc {
+    color: #40514E;
+}
+.skill-row {
+    line-height: 2;
+    text-align: left;
+    margin: 100px auto 100px auto;
+    width: 50%;
+}
+
+.style-img {
+    width: 400px;
+    height: 309px;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+
+.web-img {
+    /* width: 300px; */
+    height: 25%;
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
